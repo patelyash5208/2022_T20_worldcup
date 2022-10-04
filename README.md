@@ -7,7 +7,7 @@
 The aim of this project is to create a website where everything on T20 world cup 2022 is available to everyone. Everyone can contribute in this repo by making webpages and designing the fixture/schedule.
 
 # Tasks
- HTML 
- CSS 
- JAVASCRIPT
+ HTML <br>
+ CSS <br>
+ JAVASCRIPT <br>
  

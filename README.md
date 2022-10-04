@@ -16,3 +16,4 @@ The aim of this project is to create a website where everything on T20 world cup
  
  In pull request you have to commit image of what you have done.
  
+Please provide Screenshot of what you have done

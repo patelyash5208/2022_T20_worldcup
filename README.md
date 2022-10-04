@@ -11,3 +11,7 @@ The aim of this project is to create a website where everything on T20 world cup
  CSS <br>
  JAVASCRIPT <br>
  
+ #How to request pull
+ 
+ In pull request you have to commit image of what you have done.
+ 

@@ -1,68 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T20 - World Cup - 2022</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Teams</title>
 </head>
 <body>
-
+  <section id="nav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="Bootstrap" width="100" height="60">
+        </a>
+        <a class="navbar-brand" href="#">T20-WorldCup</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="team.html">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="venues.html">Venues</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
      <div class="container py-5">
         <div class="row gy-4">
         <div class="card-md-3 h-100" style="width: 18rem;">
-            <img src="images/india_f.webp" class="card-img-top" alt="...">
+            <img src="images/india_f.webp" class="card-img-top" alt="..."
+            width="264px" height="176px">
             <div class="card-body">
-              <a href="india.html" class="btn btn-primary">Go Team</a>
+              <a href="india.html" class="btn btn-primary" style="color: #EEEEEE;background-color: rgba(0,0,0,0.85);">India</a>
             </div>
           </div>
           <div class="card-md-3 h-100" style="width: 18rem;">
-            <img src="images/Flag-Australia.webp" class="card-img-top" alt="...">
+            <img src="images/Flag-Australia.webp" class="card-img-top" alt="..."
+            width="264px" height="176px">
             <div class="card-body">
-              <a href="austraila.html" class="btn btn-primary">Go Team</a>
+              <a href="austraila.html" class="btn btn-primary" style="color: #EEEEEE;background-color: rgba(0,0,0,0.85);">Australia</a>
             </div>
           </div>
           <div class="card-md-3 h-100" style="width: 18rem;">
-            <img src="images/Flag-England.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              
-              <a href="england.html" class="btn btn-primary">Go Team</a>
-            </div>
-          </div>
-          <div class="card-md-3 h-100" style="width: 18rem;">
-            <img src="images/Flag-Afghanistan.webp" class="card-img-top" alt="...">
+            <img src="images/Flag-England.webp" class="card-img-top" alt="..."
+            width="264px" height="176px">
             <div class="card-body">
               
-              <a href="afghanistan.html" class="btn btn-primary">Go Team</a>
+              <a href="england.html" class="btn btn-primary" style="color: #EEEEEE;background-color: rgba(0,0,0,0.85);">England</a>
             </div>
           </div>
           <div class="card-md-3 h-100" style="width: 18rem;">
-            <img src="images/Flag-New-Zealand.webp" class="card-img-top" alt="...">
+            <img src="images/Flag-Afghanistan.webp" class="card-img-top" alt="..."
+            width="264px" height="176px">
             <div class="card-body">
               
-              <a href="new-zealand.html" class="btn btn-primary">Go Team</a>
+              <a href="afghanistan.html" class="btn btn-primary" style="color: #EEEEEE;background-color: rgba(0,0,0,0.85);">Afghanistan</a>
             </div>
           </div>
           <div class="card-md-3 h-100" style="width: 18rem;">
-            <img src="images/Flag-South-Africa.webp" class="card-img-top" alt="...">
+            <img src="images/Flag-New-Zealand.webp" class="card-img-top" alt="..."
+            width="264px" height="176px">
+            <div class="card-body">
+              
+              <a href="new-zealand.html" class="btn btn-primary" style="color: #EEEEEE;background-color: rgba(0,0,0,0.85);">New-Zealand</a>
+            </div>
+          </div>
+          <div class="card-md-3 h-100" style="width: 18rem;">
+            <img src="images/Flag-South-Africa.webp" class="card-img-top" alt="..."
+            width="264px" height="176px">
             <div class="card-body">
              
-              <a href="south-africa.html" class="btn btn-primary">Go Team</a>
+              <a href="south-africa.html" class="btn btn-primary" style="color: #EEEEEE;background-color: rgba(0,0,0,0.85);">South-Africa</a>
             </div>
           </div>
           <div class="card-md-3 h-100" style="width: 18rem;">
-            <img src="images/flag-symbolism-Pakistan-design-Islamic.webp" class="card-img-top" alt="...">
+            <img src="images/flag-symbolism-Pakistan-design-Islamic.webp" class="card-img-top" alt="..." width="264px" height="176px">
             <div class="card-body">
               
-              <a href="pakistan.html" class="btn btn-primary">Go Team</a>
+              <a href="pakistan.html" class="btn btn-primary" style="color: #EEEEEE;background-color: rgba(0,0,0,0.85);">Pakistan</a>
             </div>
           </div>
           <div class="card-md-3 h-100" style="width: 18rem;">
-            <img src="images/Flag_of_Bangladesh.svg.webp" class="card-img-top" alt="...">
+            <img src="images/Flag_of_Bangladesh.svg.webp" class="card-img-top" alt="..."
+            width="264px" height="176px">
             <div class="card-body">
              
-              <a href="bamglades.html" class="btn btn-primary">Go Team</a>
+              <a href="bangladesh.html" class="btn btn-primary" style="color: #EEEEEE;background-color: rgba(0,0,0,0.85);">Bangladesh</a>
             </div>
           </div>
         </div>
